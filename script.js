@@ -95,7 +95,6 @@ function renderWeatherInfo(weatherInfo) {
     humidity.innertext = weatherInfo?.main?.humidity;
     cloudiness.innerText = weatherInfo?.clouds?.all;
 
-
 }
 
 function getLocation() {
